@@ -1,0 +1,9 @@
+streamlit
+pymongo
+pandas
+matplotlib
+wordcloud
+requests
+beautifulsoup4
+schedule
+googlesearch-python

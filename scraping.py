@@ -31,7 +31,7 @@ def scrape_kompas_crime():
     scrape_time = datetime.now(pytz.timezone('Asia/Jakarta')).strftime("%Y-%m-%d")
 
     # Koneksi ke MongoDB untuk memeriksa data yang sudah ada
-    client = MongoClient("mongodb+srv://sagitarius:22090017@cluster0.dabaqxm.mongodb.net/gym?retryWrites=true&w=majority&appName=Cluster0")
+    client = MongoClient("mongodb+srv://sagitarius:22090017@cluster0.dabaqxm.mongodb.net/")
     db = client["gym"]
     collection = db["gymData"]
 

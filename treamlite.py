@@ -5,7 +5,7 @@ import pandas as pd
 import re
 
 # Koneksi MongoDB
-client = MongoClient("mongodb://localhost:27017/")
+client = MongoClient("mongodb+srv://sagitarius:22090017@cluster0.dabaqxm.mongodb.net/")
 db = client["gym"]
 collection = db["gymData"]
 
